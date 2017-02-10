@@ -1,0 +1,12 @@
+.directory
+doc/html/
+doc/man/
+example/pidof/mypidof
+example/pidof/.obj/
+example/pidof/.directory
+example/which/mywich
+example/which/.obj/
+example/which/.directory
+example/test/t1
+example/test/.obj/
+example/test/.directory
