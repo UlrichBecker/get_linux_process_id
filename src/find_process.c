@@ -217,7 +217,7 @@ static int _onPid( ON_PID_ARG_T* pArg )
    commandLineName[climeToBasename( commandLineName ) - commandLineName] = '\0';
    pInternArg->cbfArg.procDir = commandLineName;
    pInternArg->cbfArg.pid  = pArg->pid;
-   pInternArg->cbfArg.commandLine.buffer = cmdLineBuffer;
+   pInternArg->cbfArg.commandLine.buffer = (uint8_t*)cmdLineBuffer;
    initCmdLineObj( &pInternArg->cbfArg.commandLine, sizeof(cmdLineBuffer) );
    return pInternArg->onFound( &pInternArg->cbfArg );
 };
