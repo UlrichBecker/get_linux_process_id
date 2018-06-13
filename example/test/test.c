@@ -9,6 +9,17 @@
 /*! @author Ulrich Becker                                                   */
 /*! @date   17.01.2017                                                      */
 /****************************************************************************/
+
+/*
+ * NOTE:
+ * If you have been made and installed the shared-library via the makefile in
+ * /src/makefile just compile this example by the following line:
+ *
+ * gcc -o t1 -lFindProcess test.c 
+ *
+ * otherwise invoke the makefile in this directory.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <find_process.h>
