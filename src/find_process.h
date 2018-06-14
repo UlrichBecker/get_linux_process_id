@@ -3,7 +3,7 @@
 /*! @brief Module for finding process-IDs of running LINUX processes         */
 /*                                                                           */
 /*---------------------------------------------------------------------------*/
-/*! @file     find_process.h                                                 */
+/*! @file     find_process.h lib: libFindProcess.so resp. -lFindProcess      */
 /*! @see      find_process.c                                                 */
 /*! @author   Ulrich Becker                                                  */
 /*! @date     16.12.2015                                                     */
