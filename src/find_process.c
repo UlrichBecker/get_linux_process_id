@@ -223,7 +223,7 @@ static int _onPid( ON_PID_ARG_T* pArg )
 };
 
 /*!----------------------------------------------------------------------------
- * @see fins_process.h
+ * @see find_process.h
  */
 int forAllProcesses( ON_PID_F onPid, void* pUser )
 {

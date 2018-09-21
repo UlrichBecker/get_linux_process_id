@@ -15,7 +15,7 @@
  * If you have been made and installed the shared-library via the makefile in
  * /src/makefile just compile this example by the following line:
  *
- * gcc -o t1 -lFindProcess test.c 
+ * gcc -o t1 -lFindProcess test.c
  *
  * otherwise invoke the makefile in this directory.
  */
