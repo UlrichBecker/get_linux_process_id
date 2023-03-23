@@ -23,7 +23,6 @@
 #include <signal.h>
 #include <limits.h>
 #include <libgen.h>
-#include <assert.h>
 
 #include <find_process.h>
 
